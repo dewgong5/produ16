@@ -1,14 +1,13 @@
 import React from "react";
-import "./Home.css";
+import "./Explore.css";
 
-function Home() {
+function Explore() {
 
   return (
     <div id="main">
       
     </div>
   );
-
 }
 
-export default Home;
+export default Explore;

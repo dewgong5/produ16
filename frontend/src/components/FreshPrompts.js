@@ -1,10 +1,11 @@
-import Card from "./components/Card";
-import imgSrc from './components/hotprompts.png'
+import Card from "./Card";
+import imgSrc from './hotprompts.png'
+import Hotprompts from "./Hotprompts";
 
 function FreshPrompts() {
     return (
         <div class = "container">
-            <img src={imgSrc} alt="Image" className="header-long-text" />
+            <Hotprompts/>
             <Card title = "Fresh 1" description = "So Fresh"/>
             <Card title = "Fresh 1" description = "So Fresh"/>
             <Card title = "Fresh 1" description = "So Fresh"/>

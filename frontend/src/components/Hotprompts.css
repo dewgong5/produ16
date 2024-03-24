@@ -1,8 +1,13 @@
-
 .header-long-text {
     height : 10px;
-    flex-direction: row;
     margin-bottom: 20px;
-    transition: top 0.3s;
-    margin-left:50px;
+    
 }
+
+.text-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow-x: hidden;
+}
+

@@ -9,16 +9,16 @@ import sav from './image 28.png'
 
 
 
-function Card({title, description, user, like, comment, shared, saved}) {
+function Card({topic, title, description, user, like, comment, shared, saved}) {
     return (
       <div className="card">
         <div className="card-content">
         <div className="card-user-container">
           <img src={userPic} alt="Image" className="imagecard"/>
           <h5 className="card-user">{user}</h5>
-          <h5 className="resultBubbleX">TOPIC</h5>
+          <h5 className="resultBubbleX">{topic}</h5>
           <h5 className="hours">3 HRS AGO</h5>
-          <h5 className="resultBubble2">NEW TOPIC</h5>
+          <h5 className="resultBubble2">FOLLOW TOPIC</h5>
           </div>
         <h2 className="card-title">{title}</h2>
         <p className="card-description">{description}</p>

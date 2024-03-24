@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+:root {
+  --primary-color: #140B00;
+}
+
+#main {
+  background-color: var(--primary-color);
+  font-family: 'Josefin Sans', sans-serif;
+  min-width: 100vh;
+  height: 100vh;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+.scroll {
+  align-items: center;
+  overflow-y: scroll;
+  min-height: 88%;
+  max-height: 88%;
+  overflow-x: hidden;
+  scrollbar-width: none;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.userInfo {
+  min-height: 40vh;
+  display: flex;
+}
+
+.avatar {
+  padding-left:10%;
+  min-height: 100%;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatarImage {
+  width: 65%;
+  border-radius: 130px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.edit-button, .remove-button {
+  text-align: center;
+  margin-top: 10px;
+  background-color: #140B00;
+  color: #E4B887;
+  border: none;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+.info {
+  min-height: 100%;
+  width: 40%;
+  padding-left:20px;
+}
+
+.username {
+  color: white;
+  margin-top: 30px;
+}
+
+.attributes {
+  display: flex;
+  flex-direction: row;
+}
+
+.attributes h2 {
+  color: white;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 10px;
+}
+.attributes h3 {
+  color: #E79D52;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 10px;
+}
+
+.prompts {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.likes {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.comments {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-me h4 {
+  color: #E4B887;
+}
+
+.about-me p {
+  color: white;
+}
+
+.favorite-topics {
+  min-height: 100%;
+  width: 30%;
+}
+
+.favorite-topics h3 {
+  color: #E79D52;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.topic-section {
+  background-color: #261500;
+  min-height: 65%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 50px;
+  padding-top: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.topic-row {
+  width: 100%;
+  height: 60px;
+  display: flex;
+}
+
+.resultBubble {
+  color: white;
+  background-color: #E79D52;
+  border-radius: 30px;
+  display: inline-flex;
+  align-items: center; 
+  justify-content: center; 
+  height: 50px;
+  padding: 0 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.my-prompts {
+  width: 100%;
+}
+
+.my-prompts h1 {
+  color: #E4B887;
+  padding-left: 40%;
+}
+

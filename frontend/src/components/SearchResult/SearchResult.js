@@ -1,50 +1,15 @@
 import React, { useState } from "react";
-import "./Explore.css";
+import "./SearchResult.css";
 import Header from "../Header";
 
 import { useNavigate } from 'react-router-dom'; // Import useNavigate
 
 import { Link } from 'react-router-dom';
 
-const historyTopics = ["fantasy", "sci-fi", "horror", "romance", "thriller", "mystery", "historical", "western", "adventure", "dystopian"];
-
-const generatedTopics = [
-    "urban fantasy", "epic fantasy", "space opera", "cyberpunk",
-    "paranormal", "gothic horror", "psychological thriller", "crime mystery",
-    "historical romance", "regency romance", "spaghetti western", "space western",
-    "sword and sorcery", "high fantasy", "alien invasion", "time travel",
-    "cozy mystery", "police procedural", "alternate history", "steampunk"
-  ];
+import { useLocation } from 'react-router-dom';
 
 
-function TopicsList({ topics }) {
-    // Function to chunk the topics array into groups of 10
-    const chunkArray = (array, size) => {
-        const chunkedArr = [];
-        for (let i = 0; i < array.length; i += size) {
-        chunkedArr.push(array.slice(i, i + size));
-        }
-        return chunkedArr;
-    };
-
-    const chunkedTopics = chunkArray(topics, 10);
-
-    return (
-        <div className="list">
-            {chunkedTopics.map((chunk, index) => (
-                <div key={index} className="topicsGroup">
-                {chunk.map((topic, index) => (
-                <Link key={index} to={`/search-result?q=${topic}`} className="topicLink">
-                    <p>{topic}</p>
-                </Link>                
-                ))}
-                </div>
-            ))}
-        </div>
-    );
-}
-
-function Explore() {
+function SearchResult() {
 
   const [searchQuery, setSearchQuery] = useState("");
 
@@ -61,6 +26,10 @@ function Explore() {
     }
   };
 
+  const location = useLocation();
+  const queryParams = new URLSearchParams(location.search);
+  const query = queryParams.get('q');
+
   return (
     <div id="main">
         <Header/>
@@ -76,18 +45,13 @@ function Explore() {
         <div className="topicsNFilter">
             <div className="topics">
                 <div className="topicsHeader">
-                    <h2>TOPICS</h2>
-                    <p className="trending">Trending now:</p>
+                    <h2>RESULTS FOR:</h2>
+                    <div className="resultBubble">
+                        {query}
+                    </div>
                 </div>
-                <div className="topicsContent">
-                    <div className="history">
-                        <h3>HISTORY</h3>
-                        <TopicsList topics={historyTopics} />
-                    </div>
-                    <div className="generated">
-                        <h3>FRESHLY·GENERATED FOR YOU</h3>
-                        <TopicsList topics={generatedTopics} />
-                    </div>
+                <div className="content">
+                    
                 </div>
             </div>
 
@@ -141,4 +105,4 @@ function Explore() {
   );
 }
 
-export default Explore;
+export default SearchResult;

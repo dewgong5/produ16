@@ -6,7 +6,7 @@
     font-family: 'Josefin Sans', sans-serif;
     font-size: 8px;
     height: 80px;
-    
+    width: 100%;
   }
   
   .horizontal-text {
@@ -22,10 +22,15 @@
     text-decoration: none;
   }
 
+  #home-link {
+    flex-grow: 1; /* Added this property */
+    display: flex; /* Ensures the image aligns to the left within the link */
+    justify-content: flex-start; /* Aligns the image to the left */
+  }
+
   .header-image{
-    margin-right:830px;
-    height: 90px;
-    
+    height: 70px;
+    margin-top: 5px;
   }
 
   .header-image2{

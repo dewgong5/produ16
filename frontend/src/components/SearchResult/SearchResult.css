@@ -65,43 +65,24 @@
   color: #E79D52;
 }
 
-.trending {
-  color: white;
-  font-style: italic;
-  margin-left: 20px;
-  margin-top: 25px;
-}
-
 .topics p {
   color: white;
 }
 
-.topicsContent {
-  display: flex;
-  margin-top: 0;
+.resultBubble {
+  color: white;
+  background-color: #E79D52;
+  border-radius: 30px;
+  display: inline-flex;
+  align-items: center; 
+  justify-content: center; 
+  height: 50px;
+  margin-top:10px;
+  margin-left: 10px;
+  padding: 0 10px;
 }
 
-.history {
-  width: 30%;
-}
 
-.generated {
-  width: 70%;
-}
-
-.list {
-  width: 100%;
-  display: flex;
-}
-
-.topicsGroup {
-  width: 40%;
-}
-
-.topicLink {
-  color: inherit;
-  text-decoration: none;
-}
 
 .filter {
   min-height: 200px;

@@ -1,0 +1,22 @@
+.hoto {
+    height : 300px;
+    margin-right: 50px;
+    margin-left: 40px;
+
+    
+}
+
+.hot1 {
+    height : 300px;
+    margin-right: 40px;
+    margin-left: 50px;
+
+    
+}
+
+.hot-container{
+    display:flex;
+    flex-direction: row;
+    overflow-x: hidden;
+}
+

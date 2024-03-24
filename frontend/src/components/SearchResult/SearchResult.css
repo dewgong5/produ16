@@ -141,6 +141,10 @@
   cursor: pointer;
 }
 
-.container {
-  max-height: 440px;
+.container2{
+  align-items: center;
+  overflow-y: scroll;
+  max-height: 66vh;
+  overflow-x: hidden;
+  scrollbar-width: none;
 }

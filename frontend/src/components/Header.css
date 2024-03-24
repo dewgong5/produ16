@@ -15,6 +15,11 @@
     margin-left: 30px; 
     color: #E4B887;
     white-space: nowrap;
+    text-decoration: none;
+  }
+
+  .header-link {
+    text-decoration: none;
   }
 
   .header-image{

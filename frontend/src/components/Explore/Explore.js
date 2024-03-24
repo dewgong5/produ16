@@ -2,11 +2,12 @@ import React, { useState } from "react";
 import "./Explore.css";
 import Header from "../Header";
 
+import { useNavigate } from 'react-router-dom'; // Import useNavigate
+
 const historyTopics = ["topic_1", "topic_1", "topic_1", "topic_1", "topic_1", "topic_1", "topic_1", "topic_1", "topic_1", "topic_1"];
 
 const generatedTopics = ["topic_1", "topic_1", "topic_1", "topic_1", "topic_1", "topic_1", "topic_1", "topic_1", "topic_1", "topic_1", 
                          "topic_1", "topic_1", "topic_1", "topic_1", "topic_1", "topic_1", "topic_1", "topic_1", "topic_1", "topic_1"];
-
 
 
 function TopicsList({ topics }) {
@@ -36,12 +37,19 @@ function TopicsList({ topics }) {
 
 function Explore() {
 
-  // Step 1: State initialization for the search query
   const [searchQuery, setSearchQuery] = useState("");
 
-  // Step 3: Event handler for updating the search query state
+  const navigate = useNavigate();
+
+
   const handleSearchChange = (event) => {
     setSearchQuery(event.target.value);
+  };
+
+  const handleKeyPress = (event) => {
+    if (event.key === 'Enter') {
+        navigate(`/search-result?q=${encodeURIComponent(searchQuery)}`);
+    }
   };
 
   return (
@@ -53,6 +61,7 @@ function Explore() {
                 placeholder="SEARCH..."
                 value={searchQuery}
                 onChange={handleSearchChange}
+                onKeyPress={handleKeyPress}
             />
         </div>
         <div className="topicsNFilter">

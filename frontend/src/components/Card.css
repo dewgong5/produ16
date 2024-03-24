@@ -152,9 +152,11 @@
 
 
 .harryimg{
-  max-width: 60%;
+  max-width: 80%;
+  height: 300px;
+  width: 700px;
   max-height: 60%;
-  margin-left: 15%;
+  margin-left: 60px;
   margin-right: auto;
   margin-bottom: auto;
 }

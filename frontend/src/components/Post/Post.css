@@ -207,9 +207,12 @@
     margin-right: 5%;
     margin-top: 0%;
     margin-bottom: 130px;
-    padding: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
     background-color: #5E3200;
     border-radius: 40px;
+
 }
 
 .POP {

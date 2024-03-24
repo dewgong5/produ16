@@ -17,7 +17,7 @@ function Header() {
           <h1 className="horizontal-text">MY PROMPTS</h1>
         </Link>
         <Link to="/profile" className="header-link">
-          <h1 className="horizontal-text">HI USER!</h1>
+          <h1 className="horizontal-text">HI, POOKIE_1!</h1>
         </Link>
         <Link to="/profile">
           <img src={imageSrc2} alt="User Profile" className="header-image2" />

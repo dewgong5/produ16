@@ -140,3 +140,7 @@
 .icons span {
   cursor: pointer;
 }
+
+.container {
+  max-height: 440px;
+}

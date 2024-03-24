@@ -11,8 +11,8 @@ function FreshPrompts() {
             <Hot/>
             <div className="dark-background"><img src={imgSrc} alt="Image" className="frshprmpts"/>
             </div>
-            <Card title = "Fresh 1" description = {loremIpsum} user = "ADMIN" like = "25" comment = "20" shared = "30" saved = "11"/>
-            <Card title = "Fresh 1" description = "So Fresh"/>
+            <Card title = "Harry Potter Spinoff?" description = {loremIpsum} user = "ADMIN" like = "25" comment = "20" shared = "30" saved = "11"/>
+            <Card title = "New Game?" description = "So Fresh"/>
             <Card title = "Fresh 1" description = "So Fresh"/>
             <Card title = "Fresh 1" description = "So Fresh"/>
             <Card title = "Fresh 1" description = "So Fresh"/>

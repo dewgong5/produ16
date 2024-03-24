@@ -10,7 +10,7 @@
   }
   
   .horizontal-text {
-    margin-top: 30px;
+    margin-top: 34px;
     margin-right: 30px;
     margin-left: 30px; 
     color: #E4B887;
@@ -20,7 +20,26 @@
 
   .header-link {
     text-decoration: none;
+    display: flex;
+    flex-direction: row;
   }
+
+  .orange-circle {
+    background-color: #E79D52;
+    margin-top: 8.5%;
+    margin-bottom: 9.5%;
+    width: 38px;
+    border-radius: 150px;
+  }
+
+  .add {
+    color: #2B1700;
+    font-weight: bold;
+    font-size: 45px;
+    margin-top: -3px;
+    margin-left: 6.7px;
+  }
+
 
   #home-link {
     flex-grow: 1; /* Added this property */
@@ -35,7 +54,7 @@
 
   .header-image2{
     margin-right: 40px;
-    margin-top: 20px;
+    margin-top: 25px;
     margin-bottom: 20px;
     height: 30px;
   }

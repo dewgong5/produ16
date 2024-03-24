@@ -118,6 +118,7 @@
 
 .newline {
   width: 100%;
+  margin-top: auto;
 }
 
 .heart{
@@ -151,13 +152,11 @@
 
 
 .harryimg{
-  width: 550px;
-  height: 250px;
-  margin-left: 30px;
-
-
-
-
+  max-width: 60%;
+  max-height: 60%;
+  margin-left: 15%;
+  margin-right: auto;
+  margin-bottom: auto;
 }
 
 .resultBubble2 {
@@ -186,8 +185,6 @@
   text-align: left; 
   font-family: 'Josefin Sans', sans-serif;
   margin-left: 10px;
-
-
 }
 
 .card-description{
@@ -223,9 +220,6 @@
 .imagecard{
   margin-top: 10px;
 }
-
-
-
 
 
 .card-user-container{

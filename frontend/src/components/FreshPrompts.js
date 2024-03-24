@@ -20,7 +20,6 @@ function FreshPrompts() {
         </div>
 
     );
-
 }
 
 export default FreshPrompts;

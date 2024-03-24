@@ -8,6 +8,20 @@
   scrollbar-width: none;
 }
 
+.frshprmpts{
+  margin-left: 525px;
+  position : sticky;
+  top: 0;
+  width: 400px;
+
+}
+
+.dark-background {
+  background-color: #140B00;
+  position: sticky;
+  top: 0;
+}
+
 .resultBubble {
   color: #140B00;
   font-size: 13px;

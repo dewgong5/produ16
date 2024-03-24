@@ -22,8 +22,9 @@
   top: 0;
 }
 
-.resultBubble {
+.resultBubbleX {
   color: #140B00;
+  white-space: nowrap;
   font-size: 13px;
   font-family: 'Josefin Sans', sans-serif;
   background-color: #E79D52;
@@ -36,8 +37,8 @@
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 2px;
-  margin-left: 10px
-
+  
+  
 }
 
 .resultBubble3 {

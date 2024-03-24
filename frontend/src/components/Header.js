@@ -13,7 +13,7 @@ function Header() {
         <Link to="/explore" className="header-link">
           <h1 className="horizontal-text">EXPLORE</h1>
         </Link>
-        <Link to="/myprompts" className="header-link">
+        <Link to="/profile" className="header-link">
           <h1 className="horizontal-text">MY PROMPTS</h1>
         </Link>
         <Link to="/profile" className="header-link">

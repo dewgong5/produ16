@@ -77,7 +77,9 @@ function Explore() {
             <div className="topics">
                 <div className="topicsHeader">
                     <h2>TOPICS</h2>
-                    <p className="trending">Trending now:</p>
+                    <Link to={`/search-result?q=fantacy`} className="topicLink">
+                        <p className="trending">Trending now: fantacy</p>
+                    </Link>  
                 </div>
                 <div className="topicsContent">
                     <div className="history">

@@ -12,6 +12,8 @@ import Card from "../Card";
 
 import imageSrc from './avatar.png';
 
+const loremIpsum = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus congue pellentesque enim nec ullamcorper. Quisque volutpat pretium libero, non viverra lacus posuere non. In quis diam non tortor vulputate cursus in eget massa. Ut lorem tellus, congue eget libero nec, ornare ornare nunc. Vestibulum eleifend, dui ut viverra lobortis. '
+
 function Profile() {
 
   const navigate = useNavigate();
@@ -86,6 +88,12 @@ function Profile() {
 
             <div className="my-prompts">
                 <h1>MY PROMPTS</h1>
+                <div className="promptRow"></div>
+                <Card title = "Fresh 1" description = {loremIpsum} user = "ADMIN" like = "25" comment = "20" shared = "30" saved = "11"/>
+                <Card title = "Fresh 1" description = "So Fresh"/>
+                <Card title = "Fresh 1" description = "So Fresh"/>
+                <Card title = "Fresh 1" description = "So Fresh"/>
+                <Card title = "Fresh 1" description = "So Fresh"/>
             </div>
         </div>
     </div>

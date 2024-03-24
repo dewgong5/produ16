@@ -70,6 +70,7 @@
 }
 
 .resultBubble {
+  font-size: 20px;
   color: white;
   background-color: #E79D52;
   border-radius: 30px;

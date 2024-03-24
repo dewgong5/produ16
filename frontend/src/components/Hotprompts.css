@@ -1,12 +1,13 @@
-.text-container {
-    display: flex;
-    flex-direction: row;
-}
 .header-long-text {
     height : 10px;
-    flex-direction: row;
     margin-bottom: 20px;
-    transition: top 0.3s;
-
-
+    
 }
+
+.text-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow-x: hidden;
+}
+

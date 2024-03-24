@@ -1,6 +1,6 @@
 import './Card.css';
 import userPic from './image 1.png'
-import harry from './harry.jpg'
+import harry from './Banner.png'
 import heart from './image 7.png'
 import com from './image 8.png'
 import shar from './image 9.png'

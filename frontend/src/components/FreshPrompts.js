@@ -1,5 +1,5 @@
 import Card from "./Card";
-import imgSrc from './hotprompts.png'
+import imgSrc from './freshpromptslogo.png'
 import Hotprompts from "./Hotprompts";
 import Hot from "./Hot";
 
@@ -9,7 +9,8 @@ function FreshPrompts() {
         <div class = "container">
             <Hotprompts/>
             <Hot/>
-            
+            <div className="dark-background"><img src={imgSrc} alt="Image" className="frshprmpts"/>
+            </div>
             <Card title = "Fresh 1" description = {loremIpsum} user = "ADMIN" like = "25" comment = "20" shared = "30" saved = "11"/>
             <Card title = "Fresh 1" description = "So Fresh"/>
             <Card title = "Fresh 1" description = "So Fresh"/>

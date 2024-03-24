@@ -54,11 +54,11 @@ function SearchResult() {
                     </div>
                 </div>
                 <div class = "container2">
-                    <Card title = "Fresh 1" description = {loremIpsum} user = "ADMIN" like = "25" comment = "20" shared = "30" saved = "11"/>
-                    <Card title = "Fresh 1" description = "So Fresh"/>
-                    <Card title = "Fresh 1" description = "So Fresh"/>
-                    <Card title = "Fresh 1" description = "So Fresh"/>
-                    <Card title = "Fresh 1" description = "So Fresh"/>
+                    <Card title = "Dragons" description = "Send me new ideas on dragons!" user = "ADMIN" like = "25" comment = "20" shared = "30" saved = "11"/>
+                    <Card title = "Lions" description = "Send me new ideas on lions!" user = "ADMIN" like = "25" comment = "20" shared = "30" saved = "11"/>
+                    <Card title = "Zombies at UBC?" description = "Send me ideas. Who says no?" user = "ADMIN" like = "25" comment = "20" shared = "30" saved = "11"/>
+                    <Card title = "Ideas any1?" description = "Send me new ideas on anything!" user = "ADMIN" like = "25" comment = "20" shared = "30" saved = "11"/>
+                    <Card title = "Help w ideas!" description = "Send me new ideas on anything!" user = "ADMIN" like = "25" comment = "20" shared = "30" saved = "11"/>
                 </div>
             </div>
 

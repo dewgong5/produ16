@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
 :root {
   --primary-color: #140B00;
 }
 
 #main {
   background-color: var(--primary-color);
-  font-family: Arial, sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   min-width: 100vh;
   height: 100vh;
   margin-left: auto; 

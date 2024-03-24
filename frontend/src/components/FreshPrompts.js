@@ -1,12 +1,16 @@
 import Card from "./Card";
 import imgSrc from './hotprompts.png'
 import Hotprompts from "./Hotprompts";
+import Hot from "./Hot";
 
 function FreshPrompts() {
+    const loremIpsum = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus congue pellentesque enim nec ullamcorper. Quisque volutpat pretium libero, non viverra lacus posuere non. In quis diam non tortor vulputate cursus in eget massa. Ut lorem tellus, congue eget libero nec, ornare ornare nunc. Vestibulum eleifend, dui ut viverra lobortis. '
     return (
         <div class = "container">
             <Hotprompts/>
-            <Card title = "Fresh 1" description = "So Fresh"/>
+            <Hot/>
+            
+            <Card title = "Fresh 1" description = {loremIpsum} user = "ADMIN" like = "25" comment = "20" shared = "30" saved = "11"/>
             <Card title = "Fresh 1" description = "So Fresh"/>
             <Card title = "Fresh 1" description = "So Fresh"/>
             <Card title = "Fresh 1" description = "So Fresh"/>

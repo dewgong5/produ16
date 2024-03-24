@@ -56,29 +56,29 @@ function Profile() {
                     <h3>FAVORITE TOPICS</h3>
                     <div className="topic-section">
                         <div className="topic-row">
-                            <div className="resultBubble">
+                            <div className="resultBubble50">
                                 fantacy
                             </div>
-                            <div className="resultBubble">
+                            <div className="resultBubble50">
                                 sci-fi
                             </div>
-                            <div className="resultBubble">
+                            <div className="resultBubble50">
                                 horror
                             </div>
                         </div>
                         <div className="topic-row">
-                        <div className="resultBubble">
+                            <div className="resultBubble50">
                                 romance
                             </div>
-                            <div className="resultBubble">
+                            <div className="resultBubble50">
                                 thriller
                             </div>
                         </div>
                         <div className="topic-row">
-                            <div className="resultBubble">
+                            <div className="resultBubble50">
                                 mystery
                             </div>
-                            <div className="resultBubble">
+                            <div className="resultBubble50">
                                 history
                             </div>
                         </div>

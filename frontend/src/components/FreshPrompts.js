@@ -14,9 +14,9 @@ function FreshPrompts() {
             </div>
             <Card topic = "FANTASY" title = "Harry Potter Spinoff?" description = {loremIpsum} user = "ADMIN" like = "25" comment = "20" shared = "30" saved = "11"/>
             <Card topic = "GAMING" title = "New Game?" user = "BIZBUZ" description = "So Fresh"/>
-            <Card title = "Fresh 1" description = "So Fresh"/>
-            <Card title = "Fresh 1" description = "So Fresh"/>
-            <Card title = "Fresh 1" description = "So Fresh"/>
+            <Card topic = "GAMING" title = "Fresh 1"  user = "BIZBUZ" description = "So Fresh"/>
+            <Card topic = "GAMING" title = "Fresh 1"  user = "BIZBUZ" description = "So Fresh"/>
+            <Card topic = "GAMING" title = "Fresh 1"  user = "BIZBUZ" description = "So Fresh"/>
         </div>
 
     );

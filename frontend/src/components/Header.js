@@ -10,11 +10,14 @@ function Header() {
         <Link to="/" id="home-link" className="header-link">
           <img src={imageSrc} alt="Image" className="header-image" />
         </Link>
+        <Link to="/post" className="header-link">
+          <div className="orange-circle">
+            <p className="add">+</p>
+          </div>
+          <h1 className="horizontal-text">UPLOAD PROMPT</h1>
+        </Link>
         <Link to="/explore" className="header-link">
           <h1 className="horizontal-text">EXPLORE</h1>
-        </Link>
-        <Link to="/profile" className="header-link">
-          <h1 className="horizontal-text">MY PROMPTS</h1>
         </Link>
         <Link to="/profile" className="header-link">
           <h1 className="horizontal-text">HI, POOKIE_1!</h1>

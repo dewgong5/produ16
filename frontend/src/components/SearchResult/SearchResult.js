@@ -49,7 +49,7 @@ function SearchResult() {
             <div className="topics">
                 <div className="topicsHeader">
                     <h2>RESULTS FOR:</h2>
-                    <div className="resultBubble">
+                    <div className="resultBubble100">
                         {query}
                     </div>
                 </div>
